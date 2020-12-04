@@ -1,1 +1,142 @@
 /* Put your style information here! */
+/* Put your style information here! */
+body {
+    margin: 60px 0px;
+    font-family: source-serif-pro;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+img {
+    max-width:100%;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+#original-site {
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+
+.goals {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 1px 10px #888888;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.half-goal {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.goal-title {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: gopher;
+}
+
+.sketch {
+    display: flex;
+    flex-direction: row;
+}
+
+.sketch-img {
+    width: 75%;
+    padding: 1px;
+	border: solid #999999;
+	background-color: #e6e6e6;
+}
+
+.sketch-text {
+    width: 35%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.wireframe {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+.task-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.task-text {
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+.highlight{
+	font-weight: bold;
+	color: green;
+}
+
+
+.page-title {
+    color: green;
+    text-align: center;
+    font-family: gopher;
+    font-size: 48px;
+}
+
+.section {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.section-title {
+    color: green;
+    text-align: center;
+    font-family: gopher;
+    font-size: 36px;
+}
+
+.sub-title {
+    font-family: gopher;
+    font-size: 26px;
+    margin-bottom: 0px;
+	color: green;
+}
+
+
+@media screen and (max-width: 1024px) {
+    #original-site {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .section {
+        width: 84%;
+        margin-left: 8%;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .section {
+        width: 84%;
+        margin-left: 8%;
+        margin-bottom: 60px;
+    }
+
+}
